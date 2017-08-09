@@ -1,0 +1,7 @@
+ npm install -g knex
+
+ knex migrate:make Datastructure
+ knex migrate:latest
+
+ knex seed:make 01_Tablename
+ knex seed:run
